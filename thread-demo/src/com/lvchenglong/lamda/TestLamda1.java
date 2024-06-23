@@ -12,6 +12,10 @@ public class TestLamda1 {
     }
 
     public static void main(String[] args){
+        /**
+         * 在Java中，接口本身不能被直接实例化
+         * 想要使用接口时，必须提供该接口的一个实现类，然后实例化这个实现类的对象
+         */
         ILike like = new Like1();
         like.lamda();
 
