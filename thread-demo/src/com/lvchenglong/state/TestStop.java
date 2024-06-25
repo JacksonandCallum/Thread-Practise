@@ -10,6 +10,7 @@ public class TestStop implements Runnable{
 
     // 设置一个标志位
     private boolean flag = true;
+
     @Override
     public void run(){
         int i = 0;
